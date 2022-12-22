@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questionnaireForm</title>
+    <link rel="stylesheet" type="text/css "href="styles.css">
+    <style>
+      .paddingFix {
+        padding-left: 30px;
+      }
+    </style>
+  </head>
+  <body class = "body">
+    <section>
+      <h1>Questionnaire</h1>
+      <br>
+      <br>
+      <form class="form" action="quesForm.php" method="post">
+        <h2>Please Enter a Name for Your List</h2>
+        <input type="text" id="listName" name="listName" placeholder="Enter List Name Here">
+        <br>
+        <br>
+        <h2>What would you like to use this computer for?</h2>
+        <input type="radio" id="gaming" name="gaming" value="gaming">
+        <label for="gaming">Gaming</label><br>
+        <input type="radio" id="streaming_cc" name="streaming" value="streaming_cc">
+        <label for="streaming_cc">Streaming/Content Creation</label><br>
+        <input type="radio" id="both" name="both" value="both">
+        <label for="both">Both</label><br>
+        <br>
+        <br>
+        <h2>What is your budget?</h2>
+        <input type="radio" id="low" name="low" value="low">
+        <label for="low">$600 - $1000</label><br>
+        <input type="radio" id="mid" name="mid" value="mid">
+        <label for="mid">$1000 - $1500</label><br>
+        <input type="radio" id="high" name="high" value="high">
+        <label for="high">$1500+</label><br>
+        <br>
+        <br>
+        <h2>Would you like to future proof this PC?</h2>
+        <label for="futureproof_desc">Choosing "No" will provide a more reasonable Power Supply and Motherboard.</label><br>
+        <input type="radio" id="futureYes" name="futureYes" value="yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="futureNo" name="futureNo" value="no">
+        <label for="no">No</label><br>
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="Submit" class="button-1">
+        &emsp;
+        <a href="./home.html" class="button-1">Back</a>
+      </form>
+      <br>
+      <div class="paddingFix">
+    </section>
+  <body>
+</html>
